@@ -31,14 +31,15 @@ html, body {
     background-color: var(--grey_900);
     color: #fff;
     height: 100%;
+    font-size: 12px;
 }
 
-/* w: 410; h: 658 */
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 25px;
 }
 
 .card {
@@ -46,47 +47,70 @@ html, body {
     flex-direction: column;
     align-items: center;
     background-color: var(--grey_800);
-    width: 370px;
-    padding: 40px;
+    width: 327px;
+    padding: 23px;
+    border-radius: 10px;
 }
 
-/* w: 94 */
-/* height between card and avatar: 41px */
+
 .avatar img {
-    width: 94px;
-    height: 94px;
+    width: 88px;
+    height: 88px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
-/* space btw avatar & name: 30px */
+
 .name {
     margin: 15px;
     font-size: 20px;
+    font-weight: var(--weight_700);
 }
 
-/* space btw name & location: 15px */
+
 .location {
+    margin-bottom: 13px;
     color: #B3CF5E;
+    font-weight: var(--weight_600);
 }
 
-/* space btw location & blurb: 30px */
-.blurb {
-    
+
+.description {
+    margin: 15px 15px 25px;
+    font-weight: var(--weight_400);
 }
 
-/* space btw: 24px */
+
 .social {
-    /* space: 12px btw links */
+    margin: 0;
+    width: 100%;
 }
 
-/* w:322; h: 94; */
+.social ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    margin-bottom: 12px;
+    background-color: var(--grey_700);
+    border-radius: 8px;
+}
+
+.social li:last-of-type {
+    margin-bottom: 0;
+}
+
 .social a {
-    color: var(--grey_900);
+    text-decoration: none;
+    color: #fff;
+    font-weight: var(--weight_600);
 }
-
-/* bottom space: 41px, space around elements: 41px */
-
 
 .attribution {
     font-size: 11px;
@@ -96,3 +120,48 @@ html, body {
 .attribution a {
     color: hsl(228, 45%, 44%);
   }
+
+
+
+  @media (min-width: 768px) {
+    html, body {
+        font-size: var(--body-font-size)
+    }
+
+    .card {
+        width: 404px;
+        padding: 41px;
+        border-radius: 12px;
+    }
+    
+    
+    .avatar img {
+        width: 94px;
+        height: 94px;
+        margin-bottom: 15px;
+    }
+    
+    
+    .name {
+        margin: 20px;
+    }
+    
+    
+    .location {
+        margin-bottom: 15px;
+    }
+    
+    
+    .description {
+        margin: 15px 15px 27px;
+    }
+    
+    
+    .social li {
+        height: 46px;
+        margin-bottom: 12px;
+        border-radius: 10px;
+    }
+
+  }
+
