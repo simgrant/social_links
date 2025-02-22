@@ -22,16 +22,77 @@
 
 html, body {
     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     font-family: var(--font-family);
-    background-color: #141414;
+    background-color: var(--grey_900);
     color: #fff;
+    height: 100%;
 }
+
+/* w: 410; h: 658 */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--grey_800);
+    width: 370px;
+    padding: 40px;
+}
+
+/* w: 94 */
+/* height between card and avatar: 41px */
+.avatar img {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* space btw avatar & name: 30px */
+.name {
+    margin: 15px;
+    font-size: 20px;
+}
+
+/* space btw name & location: 15px */
+.location {
+    color: #B3CF5E;
+}
+
+/* space btw location & blurb: 30px */
+.blurb {
+    
+}
+
+/* space btw: 24px */
+.social {
+    /* space: 12px btw links */
+}
+
+/* w:322; h: 94; */
+.social a {
+    color: var(--grey_900);
+}
+
+/* bottom space: 41px, space around elements: 41px */
+
 
 .attribution {
     font-size: 11px;
     text-align: center;
   }
-  
+
 .attribution a {
     color: hsl(228, 45%, 44%);
   }
