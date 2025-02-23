@@ -29,7 +29,7 @@ html, body {
     align-items: center;
     font-family: var(--font-family);
     background-color: var(--grey_900);
-    color: #fff;
+    color: var(--white);
     height: 100%;
     font-size: 12px;
 }
@@ -63,14 +63,14 @@ html, body {
 
 .name {
     margin: 15px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: var(--weight_700);
 }
 
 
 .location {
     margin-bottom: 13px;
-    color: #B3CF5E;
+    color: var(--green);
     font-weight: var(--weight_600);
 }
 
@@ -94,8 +94,6 @@ html, body {
 
 .social li {
     display: flex;
-    align-items: center;
-    justify-content: center;
     height: 44px;
     margin-bottom: 12px;
     background-color: var(--grey_700);
@@ -107,10 +105,21 @@ html, body {
 }
 
 .social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     font-weight: var(--weight_600);
+    width: 100%;
 }
+
+.social li:hover a {
+    background-color: var(--green);
+    color: var(--grey_700);
+    border-radius: 8px;
+}
+
 
 .attribution {
     font-size: 11px;
@@ -143,7 +152,7 @@ html, body {
     
     
     .name {
-        margin: 20px;
+        margin: 15px;
     }
     
     
