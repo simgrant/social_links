@@ -63,7 +63,7 @@ html, body {
 
 .name {
     margin: 15px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: var(--weight_700);
 }
 
@@ -94,8 +94,8 @@ html, body {
 
 .social li {
     display: flex;
-    height: 44px;
-    margin-bottom: 16px;
+    height: 40px;
+    margin-bottom: 14px;
     background-color: var(--grey_700);
     border-radius: 8px;
 }
@@ -170,7 +170,7 @@ html, body {
     
     .social li {
         height: 46px;
-        margin-bottom: 18px;
+        margin-bottom: 16px;
         border-radius: 10px;
     }
 
