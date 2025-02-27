@@ -63,7 +63,7 @@ html, body {
 
 .name {
     margin: 15px;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: var(--weight_700);
 }
 
@@ -95,7 +95,7 @@ html, body {
 .social li {
     display: flex;
     height: 44px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     background-color: var(--grey_700);
     border-radius: 8px;
 }
@@ -124,7 +124,7 @@ html, body {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-bottom: 20px;
+    padding: 20px;
   }
 
 .attribution a {
@@ -154,7 +154,7 @@ html, body {
     
     .name {
         margin: 15px;
-        font-size: 20px;
+        font-size: 24px;
     }
     
     
@@ -170,7 +170,7 @@ html, body {
     
     .social li {
         height: 46px;
-        margin-bottom: 12px;
+        margin-bottom: 18px;
         border-radius: 10px;
     }
 
