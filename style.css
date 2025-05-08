@@ -8,13 +8,12 @@
     --grey_800: hsl(0, 0%, 12%);
     --grey_900: hsl(0, 0%, 8%);
     /* fonts */
-    --body-font-size: 14px;
+    --body-font-size: 0.875rem;
     --font-family: 'Inter', sans-serif;
     --weight_400: 400;
     --weight_600: 600;
     --weight_700: 700;
 }
-
 
 * {
     box-sizing: border-box;
@@ -31,15 +30,15 @@ html, body {
     background-color: var(--grey_900);
     color: var(--white);
     height: 100%;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 25px;
+    height: 133.33em;
+    margin: 1.56em;
 }
 
 .card {
@@ -47,39 +46,34 @@ html, body {
     flex-direction: column;
     align-items: center;
     background-color: var(--grey_800);
-    width: 327px;
-    padding: 23px;
+    width: 20.44em;
+    padding: 1.44em;
     border-radius: 10px;
 }
 
-
 .avatar img {
-    width: 88px;
-    height: 88px;
+    width: 5.5em;
+    height: 5.5em;
     border-radius: 50%;
-    margin-bottom: 16px;
+    margin-bottom: 1em;
 }
 
-
 .name {
-    margin: 15px;
-    font-size: 20px;
+    margin: 0.94em;
+    font-size: 1.25rem;
     font-weight: var(--weight_700);
 }
 
-
 .location {
-    margin-bottom: 13px;
+    margin-bottom: 0.81em;
     color: var(--green);
     font-weight: var(--weight_600);
 }
 
-
 .description {
-    margin: 15px 15px 25px;
+    margin: 0.94em 0.94em 1.56em;
     font-weight: var(--weight_400);
 }
-
 
 .social {
     margin: 0;
@@ -94,8 +88,8 @@ html, body {
 
 .social li {
     display: flex;
-    height: 40px;
-    margin-bottom: 14px;
+    height: 2.5em;
+    margin-bottom: 0.88em;
     background-color: var(--grey_700);
     border-radius: 8px;
 }
@@ -120,60 +114,51 @@ html, body {
     border-radius: 8px;
 }
 
-
 .attribution {
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: center;
-    padding: 20px;
-  }
+    padding: 1.25em;
+}
 
 .attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
 
-
-
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     html, body {
-        font-size: var(--body-font-size)
+        font-size: var(--body-font-size);
     }
 
     .card {
-        width: 404px;
-        padding: 41px;
+        width: 25.25em;
+        padding: 2.56em;
         border-radius: 12px;
     }
-    
-    
+
     .avatar img {
-        width: 94px;
-        height: 94px;
-        margin-bottom: 15px;
-    }
-    
-    
-    .name {
-        margin: 10px;
-        font-size: 30px;
-        font-weight: var(--weight_700);
-    }
-    
-    
-    .location {
-        margin-bottom: 14px;
-    }
-    
-    
-    .description {
-        margin: 15px 15px 27px;
-    }
-    
-    
-    .social li {
-        height: 46px;
-        margin-bottom: 16px;
-        border-radius: 10px;
+        width: 5.88em;
+        height: 5.88em;
+        margin-bottom: 0.94em;
     }
 
-  }
+    .name {
+        margin: 0.63em;
+        font-size: 1.875rem;
+        font-weight: var(--weight_700);
+    }
+
+    .location {
+        margin-bottom: 0.88em;
+    }
+
+    .description {
+        margin: 0.94em 0.94em 1.69em;
+    }
+
+    .social li {
+        height: 2.88em;
+        margin-bottom: 1em;
+        border-radius: 10px;
+    }
+}
 
