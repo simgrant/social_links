@@ -73,6 +73,7 @@ html, body {
 .description {
     margin: 0.94em 0.94em 1.56em;
     font-weight: var(--weight_400);
+    text-align: center;
 }
 
 .social {
